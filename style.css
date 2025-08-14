@@ -1,0 +1,143 @@
+/*Paginas*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "roboto", sans-serif;
+}
+
+
+body{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+    align-items: center;
+}
+
+main{
+    display: flex;
+    gap: 180px;
+}
+
+
+
+/*Lado esuqerdo*/
+.info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    padding-left: 78px;
+}
+.info img{
+    width: 290px;
+    height: auto;
+    margin-top: 20px;
+}
+
+.esquerda img{
+    width: 800px;
+    height: auto;
+}
+
+
+
+/*definir input*/
+input{
+    width: 400px;
+    height: 300px;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    padding-left: 10px;
+    margin-bottom: 8px;
+}
+
+
+
+/*definir tamanho da fonte do input*/
+p{
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+
+
+/* definir tamanho da fonte */
+.email{
+    font-size: 18px;
+
+}
+.Senha{
+    font-size: 20px;
+
+}
+
+
+
+/*buttons*/
+button{
+    width: 400px;
+    height: 240px;
+    border-radius: 20px;
+    background-color: #4a5df9;
+    color: white;
+    font-size: 20px;
+}
+
+
+
+/*mudar cor do nao tem conta */
+span{
+    color: #4a5df9;
+}
+.Cadastre-se{
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+}
+.Cadastre-se p{
+    font-size: 25px;
+}
+
+
+
+/*facebook*/
+.facebook img{
+    width: 40px;
+    height: auto;
+}
+
+
+.facebook{
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+    gap: 5px;
+
+}
+
+
+
+/*ESQUECI SENHA*/
+.esqueci-senha{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    margin-top: 20px;
+    font-weight: 400;
+}
+
+
+
+/*DEFINIR COR DO LINK*/
+a {
+    text-decoration: none;
+}
+.esqueci-senha a{
+    color: #000000;
+}
